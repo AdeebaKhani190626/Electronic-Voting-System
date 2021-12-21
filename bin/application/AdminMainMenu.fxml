@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <center>
+      <AnchorPane prefHeight="459.0" prefWidth="660.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9de09f" height="150.0" stroke="#57a858" strokeType="INSIDE" width="653.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9de09f" height="305.0" layoutY="150.0" stroke="#57a858" strokeType="INSIDE" width="208.0" />
+            <ImageView fitHeight="123.0" fitWidth="112.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/744px-Emblem_of_the_Election_Commission_of_Pakistan.svg.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="144.0" layoutY="76.0" text="ELECTRONIC VOTING SYSTEM" textFill="#394039">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="295.0" layoutY="248.0" text="Welcome, Adeeba">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="AdminMMBackBtn" layoutX="228.0" layoutY="404.0" mnemonicParsing="false" onAction="#AdminMMBackClicked" text="Back to Previous Page" />
+            <Button fx:id="AdminMMStartBtn" layoutX="523.0" layoutY="404.0" mnemonicParsing="false" onAction="#AdminMMStartClicked" text="Go to Start Page" />
+            <Label layoutX="500.0" layoutY="293.0" prefHeight="17.0" prefWidth="129.0" text="Admin Session Active">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="AaapBtn" layoutX="22.0" layoutY="201.0" mnemonicParsing="false" onAction="#AaapClicked" prefHeight="37.0" prefWidth="163.0" text="Add a Party">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="AaacBtn" layoutX="21.0" layoutY="252.0" mnemonicParsing="false" onAction="#AaacClicked" prefHeight="37.0" prefWidth="165.0" text="Add a Candidate">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="ApovBtn" layoutX="21.0" layoutY="303.0" mnemonicParsing="false" onAction="#ApovClicked" text="Percentage of Votes ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="AdrBtn" layoutX="21.0" layoutY="355.0" mnemonicParsing="false" onAction="#AdrClicked" prefHeight="33.0" prefWidth="170.0" text="Displaying Results">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
